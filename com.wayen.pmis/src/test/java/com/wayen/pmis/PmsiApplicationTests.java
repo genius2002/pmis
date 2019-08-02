@@ -1,4 +1,4 @@
-package com.wayen.pmsi;
+package com.wayen.pmis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

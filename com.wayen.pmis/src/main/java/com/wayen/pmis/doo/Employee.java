@@ -1,4 +1,4 @@
-package com.wayen.pmsi.doo;
+package com.wayen.pmis.doo;
 
 import lombok.Data;
 
