@@ -13,9 +13,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.wayen</groupId>
-    <artifactId>pmsi</artifactId>
+    <artifactId>pmis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>pmsi</name>
+    <name>pmis</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
