@@ -4,6 +4,7 @@
 .mvn
 HELP.md
 pmsi.iml
+pmis.iml
 
 # Log file
 *.log
