@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wayen.pmis.mapper.EmployeeMapper">
+    <select id="query" resultType="com.wayen.pmis.doo.Employee">
+        select
+            emp_id as empId,
+            first_name as firstName,
+            sex as sex,
+            id_card as idCard,
+            tel_no_1 as telNo1,
+            tel_no_2 as telNo2,
+            tel_no_3 as telNo3,
+            dt_entry as dtEntry,
+            dt_resign as dtResign,
+            graduated_from as graduatedFrom,
+            dt_graduated as dtGraduated,
+            major as major,
+            degree as degree,
+            comment as comment,
+            last_name as lastName,
+            birthday as birthday,
+            state as state
+        from
+        employee
+    </select>
+    <insert id="create" parameterType="com.wayen.pmis.doo.Employee">
+        INSERT INTO wayen.employee
+        (first_name,sex,id_card,tel_no_1,tel_no_2,tel_no_3,dt_entry,dt_resign,graduated_from,dt_graduated,major,degree,comment,last_name,birthday,state)
+        VALUES
+        (#{firstName},#{sex},#{idCard},#{telNo1},#{telNo2},#{telNo3},#{dtEntry},#{dtResign},#{graduatedFrom},#{dtGraduated},#{major},#{degree},#{comment},#{lastName},#{birthday},#{state})
+    </insert>
+</mapper>

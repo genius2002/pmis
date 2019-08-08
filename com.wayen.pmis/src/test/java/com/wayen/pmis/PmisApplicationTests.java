@@ -1,4 +1,4 @@
-package com.wayen.pmsi;
+package com.wayen.pmis;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class PmsiApplicationTests {
+public class PmisApplicationTests {
 
     @Test
     public void contextLoads() {

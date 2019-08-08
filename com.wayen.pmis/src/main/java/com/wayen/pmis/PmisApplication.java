@@ -1,13 +1,13 @@
-package com.wayen.pmsi;
+package com.wayen.pmis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PmsiApplication {
+public class PmisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PmsiApplication.class, args);
+        SpringApplication.run(PmisApplication.class, args);
     }
 
 }
