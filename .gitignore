@@ -3,6 +3,7 @@
 .idea/
 .mvn/
 .DS_Store
+target/
 HELP.md
 *.iml
 
