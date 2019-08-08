@@ -10,7 +10,6 @@ public class Employee {
      * 名
      */
     private String firstName;
-    private String midName;
     /**
      * 姓
      */
@@ -30,4 +29,13 @@ public class Employee {
     private String telNo1;
     private String telNo2;
     private String telNo3;
+    private String state;
+    private Date dtEntry;
+    private Date dtResign;
+    private Date dtGraduated;
+    private String graduatedFrom;
+    private String major;
+    private String degree;
+    private String comment;
+    private String sex;
 }

@@ -5,12 +5,10 @@ spring:
     name: pmis
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/wayen
+    url: jdbc:mysql://localhost:3306/wayen?serverTimezone=UTC
     username: wayen
     password: wayen123
 mybatis:
   mapper-locations: classpath:mappers/*.xml
   config-location: classpath:configs/mybatis-configs.xml
-security:
-  basic:
-    enabled: false
+
