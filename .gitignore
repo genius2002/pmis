@@ -2,6 +2,7 @@
 *.class
 .idea/
 .mvn/
+.DS_Store
 HELP.md
 *.iml
 
