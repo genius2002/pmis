@@ -1,0 +1,21 @@
+CREATE TABLE `employee` (
+  `emp_id` int(10) unsigned zerofill NOT NULL AUTO_INCREMENT COMMENT '员工编号',
+  `first_name` varchar(45) NOT NULL COMMENT '名',
+  `sex` varchar(1) DEFAULT NULL COMMENT '性别\nF：女性（Female）\nM：男性（Male）',
+  `id_card` varchar(18) DEFAULT NULL COMMENT '身份证号',
+  `tel_no_1` varchar(45) DEFAULT NULL,
+  `tel_no_2` varchar(45) DEFAULT NULL,
+  `tel_no_3` varchar(45) DEFAULT NULL,
+  `dt_entry` date NOT NULL COMMENT '入职日期',
+  `dt_resign` date DEFAULT NULL COMMENT '离职日期',
+  `graduated_from` varchar(45) DEFAULT NULL COMMENT '毕业院校',
+  `dt_graduated` date DEFAULT NULL COMMENT '毕业日期',
+  `major` varchar(45) DEFAULT NULL COMMENT '专业',
+  `degree` varchar(45) DEFAULT NULL COMMENT '学位',
+  `comment` varchar(500) DEFAULT NULL COMMENT '备注信息',
+  `last_name` varchar(45) NOT NULL COMMENT '姓',
+  `birthday` date DEFAULT NULL,
+  `state` varchar(2) NOT NULL COMMENT '员工状态',
+  PRIMARY KEY (`emp_id`),
+  UNIQUE KEY `emp_id_UNIQUE` (`emp_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
